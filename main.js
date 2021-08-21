@@ -78,33 +78,3 @@ Worker.prototype.workInfo = function () {
 }
 
 
-let nurse = new Nurse(true, true, 40, 'white', 'Alina', 'Petrova', true, true, true)
-console.log(nurse);
-nurse.canGo()
-nurse.haveWeight()
-nurse.sayHello()
-nurse.identifyProblems()
-
-console.log('-------------------');
-let librarian = new Librarian(true, true, 50, 'white', 'Ira', 'Ivanova', true, true, true)
-console.log(librarian);
-librarian.canGo()
-librarian.haveWeight()
-librarian.sayHello()
-librarian.provideAccesToInformation()
-
-console.log('-------------------');
-let hunter = new Hunter(true, true, 90, 'white', 'Ivan', 'Ivanov', true);
-console.log(hunter);
-hunter.canGo()
-hunter.haveWeight()
-hunter.sayHello()
-hunter.shoot();
-
-console.log('-------------------');
-let worker = new Worker(true, true, 60, 'white', 'Petro', 'Petriv', 'Google', 'Fronted developer')
-console.log(worker);
-worker.canGo()
-worker.haveWeight()
-worker.sayHello()
-worker.workInfo()
